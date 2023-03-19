@@ -25,7 +25,15 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style-position: outside;
+}
+
 /* LAYOUT */
+
+header {
+    text-align: center;
+}
 
 .container {
     max-width: 1024px;
