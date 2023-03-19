@@ -54,8 +54,15 @@ section {
 }
 
 .grid .col {
-    flex: 0 0 calc(100% / 3);
-    max-width: calc(100% / 3);
+    flex: 0 0 calc(100% / 1);
+    max-width: calc(100% / 1);
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+    .grid .col {
+        flex: 0 0 calc(100% / 3);
+        max-width: calc(100% / 3);
+    }
 }
