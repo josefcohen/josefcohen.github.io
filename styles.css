@@ -33,12 +33,12 @@ ul {
 
 header {
     text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-section header {
-    text-align: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
+section {
+    padding-bottom: 3rem;
 }
 
 .container {
