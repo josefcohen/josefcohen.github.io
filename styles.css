@@ -37,6 +37,10 @@ header {
     padding-bottom: 3rem;
 }
 
+header h2 {
+    color: var(--body-text-color-2);
+}
+
 section {
     padding-bottom: 3rem;
 }
