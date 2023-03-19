@@ -59,9 +59,3 @@ section {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
-/* COLORS */
-
-.text-color-2 {
-    color: var(--body-text-color-2);
-}
