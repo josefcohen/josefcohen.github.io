@@ -1,6 +1,6 @@
 :root {
     --body-background-color: #ffffff;
-    --body-text-color-1: rgba(60, 60, 67, .80);
+    --body-text-color-1: rgba(60, 60, 67, .90);
     --body-text-color-2: rgba(60, 60, 67, .60);
     --font-family-base: "Inter var", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
