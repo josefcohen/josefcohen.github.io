@@ -35,11 +35,17 @@ header {
     text-align: center;
 }
 
+section header {
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .grid {
@@ -47,9 +53,11 @@ header {
     flex-wrap: wrap;
 }
 
-.grid article {
+.grid .col {
     flex: 0 0 calc(100% / 3);
     max-width: calc(100% / 3);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* COLORS */
