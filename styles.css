@@ -41,6 +41,10 @@ section {
     padding-bottom: 3rem;
 }
 
+article strong {
+    color: var(--body-text-color-2);
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
