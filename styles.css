@@ -31,14 +31,21 @@ ul {
 
 /* LAYOUT */
 
+#root {
+    padding-top: 3rem;
+}
+
 header {
     text-align: center;
-    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 header h2 {
     color: var(--body-text-color-2);
+}
+
+main {
+    text-align: left;
 }
 
 section {
