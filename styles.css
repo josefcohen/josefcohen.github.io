@@ -30,12 +30,18 @@ p {
     line-height: 1.5rem;
 }
 
-h1, h2, h3 {
+h1, h2 {
     line-height: 2rem;
 }
 
 ul {
     list-style-position: outside;
+}
+
+img.icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
 }
 
 /* LAYOUT */
@@ -67,7 +73,7 @@ section {
 }
 
 section h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 article strong {
@@ -79,6 +85,14 @@ article strong {
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.row {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
 }
 
 .grid {
